@@ -16,6 +16,8 @@ console.log(numeroCm);
 
 if (numeroGiocatore > numeroCm) {
     alert("Hai vinto!");
+} else if (numeroGiocatore == numeroCm) {
+    alert("Pareggio!");
 } else {
     alert("Hai perso!");
 }
